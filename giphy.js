@@ -12,7 +12,7 @@ function getGiphyGifs(url)
 }
 
 const searchTerm = "Smile";
-const limit = 8;
+const limit = 0;
 const searchUrl = `${baseUrl}&q=${searchTerm}&limit=${limit}`;
 
 // for default display
